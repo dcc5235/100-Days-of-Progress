@@ -11,26 +11,132 @@ A personal plan I have developed to hold myself accountable to key goals and obj
 5. Focus on physical health by having a 100 day meal plan and 100 day active plan.
 
 ## Calendar
-#### Week 1 Objective
+<details><summary>Week 1 Objectives</summary>
+
 1. JavaScript
 2. React
 3. Application process
 4. Mantra and meditation
 5. Activity
+</details>
 
-#### Week 2
-#### Week 3
-#### Week 4
-#### Week 5
-#### Week 6
-#### Week 7
-#### Week 8
-#### Week 9
-#### Week 10
-#### Week 11
-#### Week 12
-#### Week 13
-#### Week 14
+<details><summary>Week 2 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 3 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 4 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 5 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 6 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 7 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 8 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 9 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 10 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 11 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 12 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 13 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
+<details><summary>Week 14 Objectives</summary>
+
+1. JavaScript
+2. React
+3. Application process
+4. Mantra and meditation
+5. Activity
+</details>
+
 
 ## Activities
 Date: Jan 18, 2021<br>
