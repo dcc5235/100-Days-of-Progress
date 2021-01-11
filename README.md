@@ -1,7 +1,7 @@
 # 100 Days of Progress
 
 ## Objective
-A personal plan I have curated to hold myself accountable to key goals and objects between the dates of January 18, 2021 - April 26, 2021. I have mapped out a GANTT board on [monday.com](monday.com) to outline this process.
+A personal plan I have developed to hold myself accountable to key goals and objects between the dates of January 18, 2021 - April 26, 2021. I have mapped out a GANTT board on [monday.com](monday.com) to outline this process.
 
 #### Key goals and objectives
 1. Hone my skills in JavaScript by building JavaScript-heavy projects. 
