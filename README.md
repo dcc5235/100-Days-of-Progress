@@ -13,6 +13,7 @@ A personal plan I have developed to hold myself accountable to key goals and obj
 ## Calendar
 <details><summary>Week 1 Objectives</summary>
 
+Monday, 01/18/20 - Sunday, 01/24/20
 1. JavaScript
 2. React
 3. Application process
