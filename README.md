@@ -6,7 +6,7 @@ A personal plan I have developed to hold myself accountable to key goals and obj
 #### Key goals and objectives
 1. Hone my skills in JavaScript by building JavaScript-heavy projects. 
 2. Have a deeper understanding of React JS through open source.
-3. Apply for work and gain employment by the end of the 100 days.
+3. Gain employment by the end of the 100 days.
 4. Focus on mental health by curating 100 days of mantras and positive affirmations, as well as practicing mindfulness meditation.
 5. Focus on physical health by having a 100 day meal plan and 100 day active plan.
 
