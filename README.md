@@ -14,12 +14,15 @@ A personal plan I have developed to hold myself accountable to key goals and obj
 <details><summary>Week 1 Objectives</summary>
 
 Monday, 01/18/20 - Sunday, 01/24/20
-1. JavaScript
-2. React
-3. Application process
-4. Mantra and meditation
-5. Activity
+1. Morning mantra (see Gantt for details).
+2. Complete section 2 of 50 days of JS & plan design for single page layout.
+3. Assigned Coding Nexus task (React project).
+4. Begin reading Front End Developer's Hanbook (https://frontendmasters.com/books/front-end-handbook/2019/#1.1). Finish Chapter 1 by EOW.
+5. Physical activity (see Gantt for details).
+6. Write Medium article on the JS forEach helper.
 </details>
+
+![](https://scontent.fdpa1-1.fna.fbcdn.net/v/t1.0-9/137224667_1303583540019484_6345447721045545497_o.jpg?_nc_cat=109&ccb=2&_nc_sid=0debeb&_nc_ohc=H0wbjbu0HQMAX-p3IJy&_nc_ht=scontent.fdpa1-1.fna&oh=5f17cba7ff1013d9a2e21ef285fe7e36&oe=60260C10)
 
 <details><summary>Week 2 Objectives</summary>
 
