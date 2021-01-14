@@ -17,7 +17,7 @@ Monday, 01/18/20 - Sunday, 01/24/20
 1. Morning mantra (see Gantt for details).
 2. Complete section 2 of 50 days of JS & plan design for single page layout.
 3. Assigned Coding Nexus task (React project).
-4. Begin reading Front End Developer's Hanbook (https://frontendmasters.com/books/front-end-handbook/2019/#1.1). Finish Chapter 1 by EOW.
+4. Begin reading Front End Developer's Handbook (https://frontendmasters.com/books/front-end-handbook/2019/#1.1). Finish Chapter 1 by EOW.
 5. Physical activity (see Gantt for details).
 6. Write Medium article on the JS forEach helper.
 </details>
@@ -26,11 +26,12 @@ Monday, 01/18/20 - Sunday, 01/24/20
 
 <details><summary>Week 2 Objectives</summary>
 
-1. JavaScript
-2. React
-3. Application process
-4. Mantra and meditation
-5. Activity
+Monday, 01/25/20 - Sunday, 01/31/20
+1. Morning mantra (see Gantt for details).
+2. Complete section 3 of 50 days of JS & plan design for single page layout.
+3. Assigned Coding Nexus task (React project) from Week 1 Objectives.
+4. Front End Developer's Handbook (https://frontendmasters.com/books/front-end-handbook/2019/#1.1). Finish Chapter 2 by EOW.
+5. Physical activity (see Gantt for details).
 </details>
 
 <details><summary>Week 3 Objectives</summary>
