@@ -34,6 +34,8 @@ Monday, 01/25/20 - Sunday, 01/31/20
 5. Physical activity (see Gantt for details).
 </details>
 
+![](https://scontent.fdpa1-1.fna.fbcdn.net/v/t1.0-9/138294479_1304905026554002_7015728169850880422_n.jpg?_nc_cat=107&ccb=2&_nc_sid=0debeb&_nc_ohc=EC_rUoiUMmIAX_t5xvK&_nc_ht=scontent.fdpa1-1.fna&oh=ac24058b87f3c898306c7a4351d3e42b&oe=60278993)
+
 <details><summary>Week 3 Objectives</summary>
 
 1. JavaScript
