@@ -149,11 +149,22 @@ Monday, 01/25/20 - Sunday, 01/31/20
 
 
 ## Activities
+<details><summary>Week 1 Activities</summary>
+
+Date: Jan 18, 2021<br>
+What I learned: 
+</details>
+
 Date: Jan 18, 2021<br>
 What I learned: 
 
 ## Lessons Learned
+
+<details><summary>Week 1 Lessons Learned</summary>
+
 Date: Jan 18, 2021<br>
 What went well:<br>
 What could be improved:<br>
 Things to avoid:<br>
+</details>
+
