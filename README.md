@@ -155,9 +155,6 @@ Date: Jan 18, 2021<br>
 What I learned: 
 </details>
 
-Date: Jan 18, 2021<br>
-What I learned: 
-
 ## Lessons Learned
 
 <details><summary>Week 1 Lessons Learned</summary>
