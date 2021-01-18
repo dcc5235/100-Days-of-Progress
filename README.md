@@ -15,7 +15,7 @@ A personal plan I have developed to hold myself accountable to key goals and obj
 
 Monday, 01/18/20 - Sunday, 01/24/20
 1. Morning mantra (see Gantt for details).
-2. Complete section 2 of 50 days of JS & plan design for single page layout.
+2. Complete e-commerce shopping cart from scratch, plan design for single page layout (landing page).
 3. Assigned Coding Nexus task (React project).
 4. Begin reading Front End Developer's Handbook (https://frontendmasters.com/books/front-end-handbook/2019/#1.1). Finish Chapter 1 by EOW.
 5. Physical activity (see Gantt for details).
