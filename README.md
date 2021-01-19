@@ -147,21 +147,16 @@ Monday, 01/25/20 - Sunday, 01/31/20
 5. Activity
 </details>
 
-
-## Activities
-<details><summary>Week 1 Activities</summary>
-
-Date: Jan 18, 2021<br>
-What I learned: 
-</details>
-
 ## Lessons Learned
 
 <details><summary>Week 1 Lessons Learned</summary>
 
 Date: Jan 18, 2021<br>
-What went well:<br>
-What could be improved:<br>
-Things to avoid:<br>
+What I did: Project up, installation, testing, & reading documentation. I decided to put more focus on carefully reading and understanding the documentation, then implementing what I understood. Today, I installed [Tailwind CSS](https://tailwindcss.com/docs/installation) with npm. Tailwind CSS is a utility-first CSS framework, which means that it provides low-level utility classes that let you build completely custom designs without ever leaving your HTML.
+
+Tailwind automatically removes all unused CSS when building for production, which means your final CSS bundle is the smallest it could possibly be. In fact, most Tailwind projects ship less than 10KB of CSS to the client. Some things to keep in mind with Tailwind: issues with repeating classes which makes readability more difficult.<br>
+What went well: Most of the project set up was fairly straight forward. I was able to orgnanize basic project files into folders and get started on the navigation for the e-commerce site. I read several articles about the pros/cons of Tailwind.<br>
+What could be improved: I ran into a few hiccups with Tailwind. After installation, none of the preset Tailwind classes I added were initializing on the server. I brought in peers to take a look at the project set up and we were not able to come to a resolution today. We believe that my current version of node.js may have something to do with it.<br>
+Moving forward, I will be saving links to the articles I read so I can reference them another time. I am also going to attempt to rubber duck my way through the project more.
 </details>
 
