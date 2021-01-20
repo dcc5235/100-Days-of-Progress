@@ -164,7 +164,7 @@ Moving forward, I will be saving links to the articles I read so I can reference
 <hr>
 
 Date: Jan 19, 2021<br>
-What I did: I partnered with a peer to track down the location of the error. Our earlier suspicions about node being outdated was inaccurate. Instead, we found that there was an issue with where the CSS script was pointing. I now have the script pointing to the public directory, instead of the src one. If anyone knows why this works, I am open to feedback. This is the updated script ```<link href="/public/css/tailwind.css" type="text/css" rel="stylesheet">```. Link to the project files are here: ![](https://github.com/dcc5235/Portfolio).
+What I did: I partnered with a peer to track down the location of the error. Our earlier suspicions about node being outdated was inaccurate. Instead, we found that there was an issue with where the CSS script was pointing. I now have the script pointing to the public directory, instead of the src one. If anyone knows why this works, I am open to feedback. This is the updated script ```<link href="/public/css/tailwind.css" type="text/css" rel="stylesheet">```. Link to the project files are [here](https://github.com/dcc5235/Portfolio).
 
 What went well: I decided to make the site a cosmetic e-commerce page where the landing page links users to the product page. I have completed half of the product page and solely used Tailwind to style all elements. I figured out how to change the background image url by editing theme.backgroundImage in the tailwind.config.js file, but this can also be done by injecting ```style``` directly into HTML. 
 
