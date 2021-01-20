@@ -160,5 +160,14 @@ What went well: Most of the project set up was fairly straight forward. I was ab
 
 What could be improved: I ran into a few hiccups with Tailwind. After installation, none of the preset Tailwind classes I added were initializing on the server. I brought in peers to take a look at the project set up and we were not able to come to a resolution today. We believe that my current version of node.js may have something to do with it.<br>
 Moving forward, I will be saving links to the articles I read so I can reference them another time. I am also going to attempt to rubber duck my way through the project more.
+
+<hr>
+
+Date: Jan 19, 2021<br>
+What I did: I partnered with a peer to track down where the error the project build was. Our earlier suspicions about node being outdated was inaccurate. Instead, we found that there was an issue with where the CSS script was pointing. I now have the script pointing to the public directory, instead of the src one. If anyone knows why this works, I am open to feedback. This is the updated script ```<link href="/public/css/tailwind.css" type="text/css" rel="stylesheet">```.
+
+What went well: I decided to make the site a cosmetic e-commerce page where the landing page links users to the product page. I have completed half of the product page and solely used Tailwind to style all elements. I figured out how to change the background image url by editing the theme.backgroundImage section in the tailwind.config.js file, but this can also be done by adding style directly into HTML. 
+
+What could be improved: As a reminder, if you use ```display: flex``` and ```justify-between``` in Tailwind, make sure width is set to 100% by using class ```container```. Otherwise, your elements won't have "free space" left to move. I found some inspiration for landing page ideas [here]( https://business.tutsplus.com/articles/product-landing-page-examples--cms-32174#:~:text=5%20Top%20Product%20Landing%20Page%20Design%20Trends%20for,...%205%20Get%20Bold%20With%20Your%20Images.%20).
 </details>
 
