@@ -169,5 +169,37 @@ What I did: I partnered with a peer to track down the location of the error. Our
 What went well: I decided to make the site a cosmetic e-commerce page where the landing page links users to the product page. I have completed half of the product page and solely used Tailwind to style all elements. I figured out how to change the background image url by editing theme.backgroundImage in the tailwind.config.js file, but this can also be done by injecting ```style``` directly into HTML. 
 
 What could be improved: As a reminder, if you use ```display: flex``` and ```justify-between``` in Tailwind, make sure width is set to 100% by using class ```container```. Otherwise, your elements won't have "free space" left to move. I found some inspiration for landing page ideas [here]( https://business.tutsplus.com/articles/product-landing-page-examples--cms-32174#:~:text=5%20Top%20Product%20Landing%20Page%20Design%20Trends%20for,...%205%20Get%20Bold%20With%20Your%20Images.%20).
+
+<hr>
+
+Date: Jan 20, 2021<br>
+What I did: I was able to hard code the product section of the site and start on the shopping basket. I will come back to dynamically code both of these in JavaScript. I started reading Chapter 1 of the [Front End Developer's Handbook](https://frontendmasters.com/books/front-end-handbook/2019/#2).
+
+Notables from Chapter 1:
+- Front-end development = client-side development
+
+![](https://frontendmasters.com/books/front-end-handbook/2019/assets/images/what-is-front-end-dev.png)
+
+What went well: I gained some inspiration from [Sephora's](https://www.sephora.com/search?keyword=eyeshadow%20palette) products section. I decided to use Tailwind's preset breakpoints for CSS grid-template-column to change how the layout looked on different screens. The products section is completely responsive. 
+
+What could be improved: I wanted the shopping bag to be hidden on x-axis and appear on hover. I wasn't able to find out how to add Tailwind classes to my code to get this effect. So, I opted to use plain CSS for it to function.
+
+```
+// HTML/Tailwind Classes
+<div id="img-container" class="relative overflow-hidden hover:opacity-50">
+  <img src="/images/img5.jpg" alt="product sample" class="block w-full min-h-full transition duration-300 ease-in">
+    <button class="absolute px-3 py-2 font-bold tracking-widest uppercase transition duration-300 ease-in transform translate-x-full bg-gray-100 border-none cursor-pointer hover:bg-yellow-500 bg-opacity-80 top-3/4 -right-0" data-id="1">
+      <i class="fas fa-shopping-cart"></i>
+      add to bag
+    </button>
+</div>
+ ```
+ 
+ ```
+// CSS          
+#img-container:hover button {
+  transform: translateX(0);
+}
+```
 </details>
 
