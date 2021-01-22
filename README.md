@@ -201,5 +201,21 @@ What could be improved: I wanted the shopping bag to be hidden on x-axis and app
   transform: translateX(0);
 }
 ```
+
+<hr>
+
+Date: Jan 21, 2021<br>
+What I did: I hard coded the shopping bag using flex box.  
+
+What went well: The HTML & CSS portion of the products page is complete. I will be working on the logic tomorrow. Once the logic is complete for the products page, I will move forward with a landing page.
+
+<hr>
+
+Date: Jan 22, 2021<br>
+What I did:
+
+What went well:
+
+What could be improved:
 </details>
 
