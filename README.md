@@ -262,4 +262,56 @@ document.addEventListener("DOMContentLoaded", () => { // Once content loads in D
 ![](https://pbs.twimg.com/media/EsX8E2ZXYAAKCu4?format=jpg&name=medium)
 
 What could be improved: I think I could practice rubber ducking my way through the code a bit more. I will make it a habit to do this every day that I am coding.
+
+
+<hr>
+
+Date: Jan 23, 2021<br>
+What I did: I used the displayProducts method to retrieve the products array. The forEach() helper executes a loop over the products array & for each product, gets props from each object & places them in the ${} in the template literal. All of this allows the products to be displayed in the user interface after the displayProducts method has been called. 
+
+```
+// Display Products Client-Side
+class Display {
+  // displayProducts method  (actions performd on objects) retrieves array named products
+  displayProducts(products) {
+    let result = '';
+    // forEach() method executes a provided function once for each array element
+    // loops over product array & for each product, retrieves props from each object & places it in the ${} template string
+    products.forEach(product => {
+      result += `
+      <article class="text-2xl text-center">
+          <div id="img-container" class="relative overflow-hidden hover:opacity-50 h-4/5">
+            <img src=${product.image} alt="product"
+              class="container block w-full min-h-full transition duration-300 ease-in">
+            <button
+              class="absolute px-3 py-2 font-bold tracking-widest uppercase transition duration-300 ease-in transform translate-x-full bg-gray-100 border-none cursor-pointer hover:bg-yellow-500 bg-opacity-80 top-3/4 -right-0"
+              data-id=${product.id}>
+              <i class="fas fa-shopping-basket"></i>
+              add to basket
+            </button>
+          </div>
+          <h3 class="mt-4 text-base tracking-widest text-center uppercase">${product.company}</h3>
+          <h3 class="text-base tracking-widest text-center normal-case">${product.title}</h3>
+          <h4 class="mt-3 tracking-widest text-center text-bold">$${product.price}</h4>
+        </article>
+      `
+    });
+    // innerHTML: change the page's content without refreshing the page. This can make website feel quicker and more responsive to user input
+    productsDiv.innerHTML = result;
+  }
+}
+
+// Event Listeners
+
+document.addEventListener("DOMContentLoaded", () => { // Once content loads in DOM, then run the following...
+  const display = new Display();
+  const products = new Products();
+  // get all products and then, display data (products) in the user interface
+  products.getProducts().then(products => display.displayProducts(products));
+});
+```
+
+What went well: The products displayed from the client side, it was responsive, and the products' image height were all the same value.
+
+What could be improved: I converted the integers in the products.json file to strings, because the product price was excluding zeros at the end of each price (i.e. 8.50 => 8.5) otherwise. Does anyone know another way of converting integers to strings solely in the JS file? 
 </details>
