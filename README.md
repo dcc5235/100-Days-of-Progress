@@ -212,10 +212,54 @@ What went well: The HTML & CSS portion of the products page is complete. I will 
 <hr>
 
 Date: Jan 22, 2021<br>
-What I did:
+What I did:  I created a products.json file to hold information on the product data (company name, name of product, price, image). Then, set up a function to retrieve the products using async await & display them as an organized array of objects in the console.
 
-What went well:
+What went well: I was able to write this explanation for this portion of the logic & why you are able to see the data in the console.
+```
+// Retrieves products from products.json file
+class Products {
+  // async function enables us to write promise based code as if it were synchronous, 
+  // without blocking the execution thread; always returns a promise
+  async getProducts() { // get method retrieves data from local server (products.json)
+    // try statement tests a block of code for errors
+    try {
+      // await operator waits for a promise to return a value within the function block
+      let result = await fetch('products.json');
+      let data = await result.json();
 
-What could be improved:
+      let products = data.items;
+      // map() array helper executes a function for every array element and return a new array that doesn't mutate the original
+      // specifically, take a list of items in products.json and display it through map(), rather than call these items individually
+      products = products.map(item => {
+        // destructuring to organize the data on return
+        const { id } = item.sys;
+        const { company, title, price } = item.fields;
+        const image = item.fields.image.fields.file.url;
+        return { id, company, title, price, image }
+      })
+      // returns a clean version of the products.json file
+      return products
+      // catch statement handles the error after (try) testing the block of code
+    } catch (error) {
+      console.log(error);
+    }
+  }
+}
+
+// Event Listeners
+
+// DOMContentLoaded event fires when the initial HTML document has been completely loaded and parsed, 
+// without waiting for stylesheets, images, and subframes to finish loading.
+document.addEventListener("DOMContentLoaded", () => { // Once content loads in DOM, then run the following...
+
+  // new operator creates a new object, inheriting products from the above Products class
+  const products = new Products();
+
+  // get all products and then, display data (products) in the console
+  products.getProducts().then(products => console.log(products));
+});
+```
+![](https://pbs.twimg.com/media/EsX8E2ZXYAAKCu4?format=jpg&name=medium)
+
+What could be improved: I think I could practice rubber ducking my way through the code a bit more. I will make it a habit to do this every day that I am coding.
 </details>
-
