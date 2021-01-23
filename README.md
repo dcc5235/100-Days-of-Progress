@@ -313,7 +313,7 @@ document.addEventListener("DOMContentLoaded", () => { // Once content loads in D
 
 What went well: The products displayed from the client side, it was responsive, and the products' image height were all the same value.
 
-![](https://pbs.twimg.com/media/EscdY-eXEAYFi4M?format=jpg&name=medium)
+<img src="https://pbs.twimg.com/media/EscdY-eXEAYFi4M?format=jpg&name=medium" width="75%">
 
 What could be improved: I converted the integers in the products.json file to strings, because the product price was excluding zeros at the end of each price (i.e. 8.50 => 8.5) otherwise. Does anyone know another way of converting integers to strings solely in the JS file? 
 </details>
