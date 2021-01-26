@@ -317,3 +317,95 @@ What went well: The products displayed from the client side, it was responsive, 
 
 What could be improved: I converted the integers in the products.json file to strings, because the product price was excluding zeros at the end of each price (i.e. 8.50 => 8.5) otherwise. Does anyone know another way of converting integers to strings solely in the JS file? 
 </details>
+
+<details><summary>Week 2 Lessons Learned</summary>
+Date: Jan 25, 2021<br>
+  
+What I did: I was able to apply logic that selects all "add to basket" btns, find the item ID for each object in the products array, display this information in the console, and store the products data in the local storage as a string using setItem & stringify.
+
+What went well:
+
+```
+// Main shopping bag
+let basket = [];
+// All buttons
+let allButtons = [];
+
+// Select the Add to Basket Buttons 
+  selectBasketButtons() {
+    // select all buttons with the ID
+    const buttons = [...document.querySelectorAll("#basket-btn")];
+    allButtons = buttons;
+
+    buttons.forEach(button => {
+      // get the ID for each button in products section
+      let id = button.dataset.id;
+      // find returns the value of the first element, if true
+      // find the item if it is inside the basket
+      let insideBasket = basket.find(item => item.id === id);
+      // if item is inside basket, then
+      if (insideBasket) {
+        // generate text that says TEST
+        button.innerText = "TEST";
+        // and disable button
+        button.disabled = true;
+      }
+      // and add the following
+      button.addEventListener('click', (event) => {
+        // generate text that says TEST
+        event.target.innerText = "TEST";
+        // and disable button
+        event.target.disabled = true;
+        // get product data and correct ID from products local storage & display in console
+        let basketItem = Storage.getProduct(id);
+        console.log(basketItem);
+      });
+    });
+  }
+}
+
+// Application: Local Storage
+class Storage {
+  // The static keyword defines a static method or property for a class. 
+  // Static methods are often utility functions, such as functions to create or clone objects, whereas static properties are useful for caches, 
+  // fixed-configuration, or any other data you don't need to be replicated across instances.
+  static storeProducts(products) {
+    // setItem sets the value of the pair identified in a key to value within the local storage
+    // this accesses the local storage, gets the products in the JSON file and returns a string value of those products
+    localStorage.setItem("products", JSON.stringify(products));
+  }
+  static getProduct(id) {
+    let products = JSON.parse(localStorage.getItem('products'));
+    return products.find(product => product.id === id)
+  }
+}
+
+// Event Listeners
+document.addEventListener("DOMContentLoaded", () => { // Once content loads in DOM, then run the following...
+  const display = new Display();
+  const products = new Products();
+  // Chaining: get all products and then, 
+  products.getProducts().then(products => {
+    // displays products in UI
+    display.displayProducts(products);
+    // loads products in local storage
+    Storage.storeProducts(products);
+  }).then(() => {
+    // display inner text when basket is selected
+    display.selectBasketButtons();
+  });
+});
+```
+
+<hr>
+
+Date: Jan 26, 2021<br>
+  
+What I did: 
+
+What went well:
+
+What could be improved:
+
+<hr>
+</details>
